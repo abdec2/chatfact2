@@ -1,0 +1,33 @@
+function error(a){var b='<div style="font-size:12px; margin-top:10px;" class="alert alert-danger alert-dismissable">                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>                <strong>Error ! </strong> '+a+" </div>";return b}function success(a){var b='<div style="font-size:12px; margin-top:10px;" class="alert alert-success alert-dismissable">                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>                <strong>Success ! </strong> '+a+" </div>";return b}function highlightFields(a){$(".form-group").removeClass("has-error"),$(".error").remove();for(var b in a)$('input[name="'+b+'"]').parent().addClass("has-error"),$('input[name="'+b+'"]').after('<span class="error">'+a[b]+"</span>")}function showprofile(a){$.ajax({url:baseUrl+"home/search/ajax_profile/"+a,type:"GET",dataType:"JSON",success:function(a){$('[name="profileid"]').text(a.id),$('[name="profile-intro"]').text(a.pintro),$('[name="txtcountry"]').text(a.pcountry),$('[name="txtcategory"]').text(a.pcategory),a.pimg?$('[name="profileimg"]').attr("src",a.pimg):$('[name="profileimg"]').attr("src",baseUrl+"/assets/imgs/no-image.jpg"),$("#profile").modal("show"),$(".modal-title").text(a.pname)},error:function(a,b,c){alert("Error get data from ajax")}})}$(document).ready(function(){var a=function(){$("#chat-container").load(base+"chat/users/")};a(),$(document).on("click","#login",function(){return dataString=$("#login-frm").serialize(),$.ajax({type:"POST",url:base+"chat/auth",data:dataString,cache:!1,beforeSend:function(){$("#login").html('<img src="assets/images/ajax-loader.gif" /> Connecting...')},success:function(b){b.success?($(".message").html(success(b.message)),$("#login-frm")[0].reset(),a()):$(".message").html(error(b.message)),$("#login").html('<i class="fa fa-lock"></i> Login'),highlightFields(b.errors)}}),!1}),$(document).on("click",".goback",function(){a()}),$(document).on("click","#logout",function(){return $.ajax({type:"POST",url:base+"chat/auth/logout",cache:!1,beforeSend:function(){},success:function(b){a()}}),!1}),$(document).on("click",".chat-form-close",function(){$("#chat-container").toggle("slide",{direction:"right"},500),$("#chat-box").hide()}),$(document).on("click",".chat-box-close",function(){$("#chat-box").hide(),$("#chat-container .chat-group a").removeClass("active")}),$(".btn-chat").click(function(){$("#chat-box").is(":visible")?($("#chat-container").toggle("slide",{direction:"right"},500),$("#chat-box").hide()):($("#chat-container").toggle("slide",{direction:"right"},500),a())}),$(document).on("click",".status-btn-group",function(){$(this).find(".btn").toggleClass("active"),$(this).find(".btn-success").size()>0&&($(this).find(".btn").toggleClass("btn-success"),$.ajax({url:base+"chat/users/toggle_status",success:function(a){1==a.status?($("#current_status").html("Online"),$("#current_status").removeClass("btn-danger").addClass("btn-success")):($("#current_status").html("Offline"),$("#current_status").removeClass("btn-success").addClass("btn-danger"))}})),$(this).find(".btn").toggleClass("btn-default")}),$(document).on("click","#create-account",function(){return $("#chat-container").load(base+"chat/auth/register/"),!1}),$(document).on("click","#register",function(){return dataString=$("#register-frm").serialize(),$.ajax({type:"POST",url:base+"chat/auth/register",data:dataString,cache:!1,beforeSend:function(){$("#register").html('<img src="assets/images/ajax-loader.gif" /> Connecting...')},success:function(a){a.success?($(".message").html(success(a.message)),$("#register-frm")[0].reset()):$(".message").html(error(a.message)),$("#register").html('<i class="fa fa-plus-circle"></i> Register'),highlightFields(a.errors)}}),!1}),$(document).on("click",".dropdown-menu",function(a){a.stopPropagation()}),$(document).on("click","#edit-profile",function(){return $("#chat-inner").load(base+"chat/users/editProfile/"),$('[data-toggle="dropdown"]').parent().removeClass("open"),!1}),$(document).on("submit","#profile-frm",function(a){a.preventDefault(),dataString=new FormData(this),$.ajax({type:"POST",url:base+"chat/users/editProfile",data:dataString,processData:!1,contentType:!1,cache:!1,beforeSend:function(){$("#update-profile").html('<img src="assets/images/ajax-loader.gif" /> Connecting...')},success:function(a){a.success?a.errors.avatar_error?$(".message").html(error(a.errors.avatar_error)):($(".message").html(success(a.message)),$("#chat-inner").load(base+"chat/users/editProfile/")):$(".message").html(error(a.message)),$("#update-profile").html('<i class="fa fa-plus-circle"></i> Update Profile'),highlightFields(a.errors)}})}),$(document).on("click","#change-password",function(){return $("#chat-inner").load(base+"chat/users/changePassword/"),$('[data-toggle="dropdown"]').parent().removeClass("open"),!1}),$(document).on("click","#update-password",function(){return dataString=$("#changepassword-frm").serialize(),$.ajax({type:"POST",url:base+"chat/users/changePassword",data:dataString,cache:!1,beforeSend:function(){$("#update-password").html('<img src="assets/images/ajax-loader.gif" /> Connecting...')},success:function(a){a.success?($(".message").html(success(a.message)),$("#changepassword-frm")[0].reset()):$(".message").html(error(a.message)),$("#update-password").html('<i class="fa fa-plus-circle"></i> Change Password'),highlightFields(a.errors)}}),!1});$(document).on("mouseenter",'[data-toggle="popover"]',function(){image=$(this).find(".profile-img").html(),name=$(this).find(".user-name").html(),status=$(this).find(".user_status").html(),$("#contact-image").empty().html(image),$("#contact-user-name").empty().html(name),$("#contact-user-status").empty().html(status),$(this).popover({placement:"left",trigger:"hover",container:"body",selector:'[data-toggle="popover"]',html:!0,content:function(){return $("#popover-content").html()}}).popover("show")}).on("mouseleave",'[data-toggle="popover"]',function(){$(this).popover("hide")})});
+
+
+
+function sendprofile(id)
+{
+	var id = id;
+	 $('[name="sendEmail"]').val('');
+	 $('[name="msgarea"]').val('');
+	 $('#confmsg').html('');
+	 $('#sendprofile').modal('show');
+	 $('.modal-title').text("Enter Email Address to Share this Card");
+
+
+	$('#emailform').submit(function(e){
+
+		event.preventDefault();
+		var email = $('[name="sendEmail"]').val();
+		var msg = $('[name="msgarea"]').val();
+		$.ajax({
+			type: 'POST',
+			url: base + 'home/search/email_profile',
+			data: {'profileid': id, 'email': email, 'emsg': msg},
+			cache: false,
+			success: function(){
+				$('#confmsg').html('<p class="text-success"> Email sent successfully to '+email+'</p>');
+
+			}
+		});
+
+	});
+		
+}

@@ -1,0 +1,821 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+	font-family: 'Tw Cen MT Condensed';
+	src: url('../fonts/TwCenMT-Condensed.eot');
+	src: url('../fonts/TwCenMT-Condensed.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-Condensed.woff') format('woff'),
+		url('../fonts/TwCenMT-Condensed.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tw Cen MT Condensed';
+	src: url('../fonts/TwCenMT-CondensedBold.eot');
+	src: url('../fonts/TwCenMT-CondensedBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-CondensedBold.woff') format('woff'),
+		url('../fonts/TwCenMT-CondensedBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}	
+
+@font-face {
+	font-family: 'Tw Cen MT';
+	src: url('../fonts/TwCenMT-Italic.eot');
+	src: url('../fonts/TwCenMT-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-Italic.woff') format('woff'),
+		url('../fonts/TwCenMT-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Tw Cen MT';
+	src: url('../fonts/TwCenMT-Regular.eot');
+	src: url('../fonts/TwCenMT-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-Regular.woff') format('woff'),
+		url('../fonts/TwCenMT-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tw Cen MT';
+	src: url('../fonts/TwCenMT-Bold.eot');
+	src: url('../fonts/TwCenMT-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-Bold.woff') format('woff'),
+		url('../fonts/TwCenMT-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tw Cen MT';
+	src: url('../fonts/TwCenMT-BoldItalic.eot');
+	src: url('../fonts/TwCenMT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-BoldItalic.woff') format('woff'),
+		url('../fonts/TwCenMT-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Tw Cen MT Condensed Extra';
+	src: url('../fonts/TwCenMT-CondensedExtraBold.eot');
+	src: url('../fonts/TwCenMT-CondensedExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TwCenMT-CondensedExtraBold.woff') format('woff'),
+		url('../fonts/TwCenMT-CondensedExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+
+
+a:hover {
+
+	text-decoration: none;
+}
+a:visited {
+		text-decoration: none;
+
+		color: white;
+}
+
+
+nav {
+
+	background: rgb(47, 45, 154) !important;
+	min-height: 80px;
+}	
+.navbar-brand {
+	padding: 36px 10px 50px 30px !important;
+	font-size: 26px !important;
+	font-weight: bold !important;
+	font-family: 'Tw Cen MT'!important;
+}
+.navbar-brand span{
+	padding: 4px ;
+	border: 1px solid white;
+
+}
+nav a {
+	color: white !important;
+	
+
+}
+.linewise {
+
+	display: block !important;
+}
+.search-line-wise {
+	display: block !important;
+}
+.linewise input {
+	font-size: 10px !important;
+	font-family: Arial !important;
+	margin-bottom: 5px !important;
+	border-radius: 0 !important;
+}
+.search-line-wise input{
+	font-size: 12px !important;
+	font-family: Arial !important;
+	margin-bottom: 5px !important;
+	border-radius: 0 !important;
+}
+ .custom-select select {
+
+ 	font-size: 12px !important;
+ 	font-family: Arial !important;
+	margin-bottom: 5px !important;
+	border-radius: 0 !important;
+
+ }
+
+.signin {
+	display: inline-block;
+}
+.signin a {
+	
+	font-family: Arial !important;
+	font-size: 10px !important;
+	font-weight: normal !important; 
+	padding: 0 10px !important;
+	margin: 0 !important; 
+}
+.signin button {
+	background: none;
+	border:none;
+	font-family: Arial !important;
+	font-size: 10px !important;
+	font-weight: normal !important; 
+	padding: 0 10px !important;
+	margin: 0 !important; 
+}
+.fr {
+	float: right !important;
+}
+
+.jumbotron {
+
+	background: white !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.custom-para {
+	color: grey;
+	margin-bottom: 10px !important;
+	text-align: center;
+	font-size: 22px !important;
+	font-weight: bold !important;  
+	font-family:'Tw Cen MT' !important;
+
+}
+.signup-heading {
+
+	text-align: center; 
+	font-size: 18px;
+	font-family: 'Tw Cen MT';
+	color: grey;
+
+}
+.signupForm label  {
+
+	font-family: Arial ;
+	font-size: 11px ; 
+	font-weight: normal; 
+
+}
+
+.signupForm input[type="email"],.signupForm input[type="password"]{
+
+	width: 100%;
+	font-size: 14px;
+	font-family: Arial;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.btn-margin {
+
+	margin-top: 20px !important;
+}
+.signupForm .btn-margin input[type="submit"] {
+	
+	background: rgb(47, 45, 154);
+	padding: 10px 20px;
+	color: white;
+	font-family: "Tw Cen MT"; 
+	font-size: 20px ;
+	font-weight: bold;
+}
+
+
+.signupinfo {
+	
+	display: inline-block !important;
+	font-family: Arial !important;
+	font-size: 8px ;
+	width: 200px;
+	vertical-align: bottom !important;
+	padding-left: 20px;
+}
+
+.display-inline {
+
+	display: inline-block !important; 
+
+}
+
+.email-model-width {
+	    width: 500px;
+    margin: 30% auto;
+}
+
+#sendprofile table{
+	width: 100%;
+
+}
+
+#sendprofile input {
+	    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* ==========================================================================
+   mobile custom styles
+   ========================================================================== */	
+
+@media (min-width: 768px){
+
+	.linewise input {
+
+		width: 300px !important;
+	}
+	
+	 .search-line-wise input{
+	
+		width: 443px !important; 
+	} 
+
+
+}
+
+ @media (min-width: 1366px){
+
+	.align-center{
+
+		margin-left: 30% !important;
+	}
+
+
+}
+@media (min-width: 769px) and (max-width: 970px ){
+
+	.linewise input {
+
+		width: auto !important;
+	}
+
+
+}
+@media (min-width: 769px) and (max-width: 818px ){
+
+		.navbar-header  {
+
+			width: 100% !important;
+
+
+	}	
+		.linewise input {
+
+			width: 200px !important;
+		}
+		
+
+		}
+
+/* 
+======================================================
+New Index 
+====================================================== */
+
+.topbar	{
+
+		background-color: rgb(47, 45, 154) !important;
+	color: white !important;
+}
+.topbar a:hover {
+
+	color: white;
+}
+
+.logo {
+	
+	margin: 25px 10px 50px 30px;
+	color: white;
+	font-family: "Tw Cen MT";
+	font-size: 28px;
+	font-weight: bold;
+
+
+
+}
+.logo span{
+	padding: 4px ;
+	border: 1px solid white;
+
+}
+
+.index2-select {
+	display: inline-block;
+	width: 49%;
+
+
+}
+.index2-select select {
+	font-size: 12px !important;
+ 	font-family: Arial !important;
+	margin-bottom: 5px !important;
+	border-radius: 0 !important;
+
+}
+
+.logoContainer  {
+	margin-top: 5px;
+	padding: 20px 10px !important;
+}
+.searchContainer {
+	margin-top: 5px;
+}
+
+
+.loginContainer {
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.loginContainer a {
+
+	color: white;
+}
+.select-container {
+	width: 80%;
+ 	margin: auto;	 
+}
+.loginContainer input{
+	height: 25px;
+	font-size: 10	px !important;
+ 	font-family: Arial !important;
+	border-radius: 0 !important;
+
+}
+
+.login-align {
+
+	width: 70%;
+	float: right;
+}
+.loginContainer .form-group {
+
+	margin-bottom:5px;
+}
+
+.searchContainer .form-group{
+	margin-bottom:5px;
+}
+
+#custom-search-input{
+    padding: 0px;
+    border: solid 1px #E4E4E4;
+    border-radius: 0px;
+    background-color: #fff;
+    width: 80%;
+	     margin: auto; 
+    margin-bottom: 5px;
+
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+
+
+}
+
+#custom-search-input button{
+    margin: 0 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 18px;
+}
+
+.SumoSelect select {
+	margin-bottom: 5px;
+}
+
+.userinfo{
+
+	font-family: arial; 
+	font-size: 12px ;
+	line-height: 9px;
+	padding-top:10px;
+	padding-right: 30px;
+}
+
+div.custom-button input[type="submit"]{
+
+	background: rgb(47, 45, 154);
+    padding: 8px 25px;
+    color: white;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.f-username-input {
+
+	width: 60%;
+	height: 35px; 
+	text-align: center; 
+	border: 1px solid black; 
+}
+
+.margin-center{
+
+	margin-top: 10%;
+}
+div.my_menu {
+	margin-top: 15px;
+}
+
+div.my_menu ul li
+{
+	padding-right: 30px;
+}
+div.my_menu ul li a{
+
+	font-size: 18px ;
+	color: #8a8989;
+	font-family: Arial;
+}
+
+
+.profile-card {
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.profile-card h3 {
+
+	font-family: Arial;
+	font-size: 20px; 
+	font-weight: 700;
+	text-align: justify;
+
+}
+
+.profile-card th {
+	height: 93px;
+}
+.profile-card>thead>tr>th {
+	background: #ddd;
+	border-bottom: 2px solid black;
+}
+.profile-card>tbody>tr>td {
+	border: none;
+}
+.profile-card>tbody>tr>td:last-child {
+	border-right: 2px solid black;
+}
+
+.profile-pic {
+
+	height: 150px;
+	width: 100%;
+
+}
+
+.card-paragraph{
+
+	width: 100%;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 13px;
+	margin-bottom: 0;
+	height: 160px;
+	overflow: hidden;
+	line-height: 20px;
+
+}
+
+ .sidebar {
+	margin-right: -250px;
+	right: 250px;
+	width: 250px;
+	height: 100%;
+	background: none;
+	position: fixed;
+	top:90px;
+	padding:10px; 
+	word-wrap: break-word;
+
+} 
+
+
+.cardbtns, .cardbtns:visited{
+	color: black;
+	font-family: Arial;
+	font-size: 18px; 
+	font-weight: bolder;
+	padding-left: 4%;
+	padding-right: 4%;
+	text-align: center;
+
+}
+.profile-modal{
+	width: 800px;
+}
+.profile-modal-img {
+	width: 200px;
+	height: 200px;
+}
+.modaltitle {
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+}
+.btn_confirm{
+	    width: 150px;
+	    font-size: 22px !important;
+	    padding-top: 5px !important;
+	    padding-bottom: 5px !important;
+}
+
+.btn-confirm {
+
+	width:40%;	
+	margin: auto;
+}
+.scarddiv {
+	width: 300px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.profile-heading {
+
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px ;
+	text-align: center;
+	color: #878787;
+}
+.profile-txt-field {
+	background: none;
+	text-align: center;
+	border: none;
+	
+}
+.imgload p {
+
+	margin: 30px 10px 10px 10px;
+	font-family: Arial;
+	font-size: 14px;
+}
+.imgload-radio-margin {
+	margin-right: 60px;
+}
+
+.imgload{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.keywords{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+.cfbutton {
+	background: rgb(47, 45, 154);
+    padding: 10px 20px;
+    color: white;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.my_menu ul {
+	width: 282px;
+    margin: auto;
+}
+.dropdown-menu {
+	width: 100% ;
+}
+.btn{
+	border-radius: 0px;
+	text-align: left;
+
+}
+.multiselect-selected-text {
+	font-family: Arial !important; 
+	color: #999;
+	font-size: 14px; 
+	
+}
+.justifiedtext{
+	text-align: justify;
+	
+}
+.signup-text {
+
+	padding-left: 10px;
+	font-size: 14px;
+    font-family: Arial;
+    height: 30px;
+
+    display: inline;
+    float: left;
+    width: 49%;
+}
+.signup-lastname {
+	padding-left: 10px;
+	font-size: 14px;
+    font-family: Arial;
+    height: 30px;
+	display: inline;
+    width: 49%;
+    margin-left: 7px;
+}
+.full {
+	min-height: 80%;
+}
+.footer-menu{
+	color: grey;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 390px;
+
+}
+.footer-menu a {
+	color: grey;
+}
+.footer-menu ul {
+	padding:0;
+}
+.footer-menu ul li{
+	list-style: none;
+	float: left;
+	padding: 5px 30px;
+}
+div.margin-center h3 {
+
+	width: 200px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.helplist {
+	font-size: 18px;
+
+}
+.helplist li {
+	padding: 10px;
+}
+.helplist a {
+	color: grey;
+}
+
+.btn-cf{
+	
+	background: rgb(47, 45, 154);
+    padding: 10px 20px;
+    color: white;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#sendprofile textarea {
+	width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* 
+===========================================
+Mobile CSS
+=========================================== */
+
+@media (max-width: 995px){
+
+
+.searchContainer input, #custom-search-input {
+
+	width: 100%;
+	
+
+}
+
+.index2-select {
+	width: 100%;
+
+}
+
+.select-container {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.login-align {
+
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom:5px;
+	
+}
+.logo {
+
+	margin: auto;
+}
+
+
+div.userinfo {
+
+	position: fixed; 
+	top: 10px;
+	right: 5px;
+}
+
+.searchContainer .form-group {
+	margin-bottom: 5px;
+}
+.profile-modal {
+	width: auto;
+}
+.profile-modal-img {
+	width: 100px;
+	height: 100px;
+}
+.scarddiv {
+	width: auto;
+	
+}
+.signup-text {
+
+	width: 100%;
+	float: none;
+}
+.signup-lastname {
+	width: 100%;
+	margin-left: 0px;
+	float: none;
+}
+
+@media (min-width: 1430px){
+
+	.scardcontainer {
+	width: 950px;
+	margin: auto;
+}
+
+}
+@media (max-width: 1430px){
+
+	.scardcontainer {
+	width: auto;
+	margin: auto;
+}
+
+}
+
+@media (max-width: 1200px) {
+	div.sidebar {
+	display: none;
+}
+}

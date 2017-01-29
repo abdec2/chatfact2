@@ -1,0 +1,793 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"buddy",
+				"buddyid"
+			],
+			[
+				"data",
+				"data_exists"
+			],
+			[
+				"or",
+				"or_where"
+			],
+			[
+				"btn",
+				"btn-login-popup"
+			],
+			[
+				"prit",
+				"print_r"
+			],
+			[
+				"sessio",
+				"session_userdata\tCI - Session - Retrieving Session Data"
+			],
+			[
+				"dele",
+				"delete-card-form"
+			],
+			[
+				"formvalida",
+				"form_validation_run\tCI - Form Validation Run"
+			],
+			[
+				"form",
+				"form_close\tCI - Form Helper - Close"
+			],
+			[
+				"de",
+				"delete-card"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"loadmo",
+				"load_model\tCI - Load Model"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"auth",
+				"authentication"
+			],
+			[
+				"load",
+				"loadchat"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"dis",
+				"display-inline"
+			],
+			[
+				"loadmod",
+				"load_module\tHMVC CI - Load Module Controller"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"str",
+				"str_array"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"tem",
+				"temp_link"
+			],
+			[
+				"cater",
+				"category_array"
+			],
+			[
+				"cat",
+				"category_array"
+			],
+			[
+				"cate",
+				"categoryvalue"
+			],
+			[
+				"check",
+				"check_data"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"uri",
+				"uri_segment\tCI - URI Segment"
+			],
+			[
+				"query",
+				"query_id"
+			],
+			[
+				"q",
+				"query_id"
+			],
+			[
+				"http_bui",
+				"http_build_query"
+			],
+			[
+				"sear",
+				"searchmodel"
+			],
+			[
+				"tota",
+				"total_rows"
+			],
+			[
+				"search",
+				"searchmodel"
+			],
+			[
+				"upload",
+				"upload_error"
+			],
+			[
+				"uplo",
+				"upload_error"
+			],
+			[
+				"input",
+				"inputcategory"
+			],
+			[
+				"formva",
+				"form_validation_sv\tCI - Form Validation Set Value"
+			],
+			[
+				"form_valida",
+				"form_validation_sv\tCI - Form Validation Set Value"
+			],
+			[
+				"form_",
+				"form_validation\tCI - Form Validation Rule"
+			],
+			[
+				"radio",
+				"radio_value"
+			],
+			[
+				"of",
+				"col-md-offset-4"
+			],
+			[
+				"profile",
+				"profiletextArea"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"col",
+				"col-md-offset-1"
+			],
+			[
+				"col-",
+				"col-md-4"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"wra",
+				"word-wrap"
+			],
+			[
+				"home",
+				"home_view"
+			],
+			[
+				"view",
+				"view_update_password"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"temp",
+				"temppassword"
+			],
+			[
+				"tmep",
+				"temppass"
+			],
+			[
+				"en",
+				"encrypt"
+			],
+			[
+				"ajax",
+				"ajax_url"
+			],
+			[
+				"aja",
+				"ajax_profile"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"email",
+				"email_code"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"categ",
+				"categorykeyword"
+			],
+			[
+				"count",
+				"countrykeyword"
+			],
+			[
+				"country",
+				"countrysch"
+			],
+			[
+				"se",
+				"serialize"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"srch",
+				"srchcategory"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"load_",
+				"load_model\tCI - Load Model"
+			],
+			[
+				"login",
+				"login_id"
+			],
+			[
+				"form_va",
+				"form_validation_run\tCI - Form Validation Run"
+			],
+			[
+				"libra",
+				"load_library\tCI - Load Library"
+			],
+			[
+				"R",
+				"RbOcc1"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"T",
+				"TwCenMT-Bold"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tw",
+				"TwCenMT-Bold"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Azeem/Desktop/dbchatfact_upload.sql",
+			"settings":
+			{
+				"buffer_size": 4576,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/wordpress/node_modules/wordpress/examples/get-posts.js",
+		"/C/xampp/htdocs/wordpress/node_modules/wordpress/examples/new-post.js",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/config.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/constants.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/database.php",
+		"/C/Users/Azeem/Desktop/dbchatfact_upload.sql",
+		"/C/xampp/htdocs/chatfact2/assets/css/main.css",
+		"/C/xampp/htdocs/chatfact2/assets/js/main.js",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/Search.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/email/email.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/profilemodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/views/chat.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/chat.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/Home.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/Test.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/Profilemodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/search_view.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/Searchmodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/Profile.php",
+		"/D/ew/Chat Fact/assets/js/main.js",
+		"/C/xampp/htdocs/chatfact/assets/js/main.js",
+		"/C/xampp/htdocs/chatigniter/assets/js/main.js",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/about.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/view_profile.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/view_updateprofile.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/home_view.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/forgetpwd_view.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/Users.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/Signup.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/Chat.php",
+		"/C/xampp/htdocs/chatfact2/assets/js/chatigniter.js",
+		"/C/Users/Azeem/Desktop/dbchatfact.sql",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/views/chat-form.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/Loginmodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/header.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/models/User_model.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/models/Message_model.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/models/Lastmsg_model.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/models/message_model.php",
+		"/C/xampp/htdocs/chatfact2/application/core/MY_Model.php",
+		"/C/xampp/htdocs/chatfact2/application/config/config.php",
+		"/C/xampp/htdocs/chatfact2/application/config/constants.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/libraries/Authentication.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/av-helper-masonry.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/shortcodes.css",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/test.php",
+		"/C/xampp/htdocs/chatfact2/assets/css/chat.css",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/Auth.php",
+		"/C/xampp/htdocs/chatfact2/.htaccess",
+		"/C/xampp/htdocs/chatigniter/.htaccess",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/views/footer.php",
+		"/C/Users/Azeem/Downloads/Azim Baig Account Details (1)",
+		"/D/development/benifit/benifit/e24PaymentPipe.inc.php",
+		"/D/development/benifit/benifit/init.php",
+		"/D/development/benifit/benifit/response.php",
+		"/D/development/benifit/benifit/resource/resource.cgn",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/views/common/javascript.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/logout.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/Logout.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/home.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/footer.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/header.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/view_profile.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/view_updateprofile.php",
+		"/C/xampp/htdocs/chatfact/application/config/database.php",
+		"/C/xampp/htdocs/chatigniter/assets/css/main.css",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/view_update_password.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/libraries/Authentication.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/profile.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/home_view.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/home.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/controllers/chat.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/controllers/users.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/views/search_view.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/controllers/auth.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/logout.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/routes.php",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/search_view.php",
+		"/C/xampp/htdocs/chatigniter/assets/js/compress js/jquery.slimscroll.js",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/profile.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/logout.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/home.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/help.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/auth.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/models/user_model.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/controllers/users.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/loginmodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/profilemodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/searchmodel.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/models/signup.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/search.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controllers/test.php",
+		"/C/xampp/htdocs/chatfact2/application/config/autoload.php",
+		"/C/xampp/htdocs/chatfact2/system/core/Controller.php",
+		"/C/xampp/htdocs/chatfact2/application/config/database.php",
+		"/C/xampp/htdocs/chatfact2/system/libraries/Calendar.php",
+		"/C/xampp/htdocs/chatfact2/system/libraries/Driver.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/helpers/smiley_helper.php",
+		"/D/ew/constants.php",
+		"/D/ew/config.php",
+		"/D/ew/autoload.php",
+		"/D/ew/database.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/chat/config/authentication.php",
+		"/C/xampp/htdocs/chatfact2/application/third_party/MX/Loader.php",
+		"/C/xampp/htdocs/chatfact2/system/database/drivers/mysql/mysql_driver.php",
+		"/C/xampp/htdocs/chatfact2/application/core/MY_Loader.php",
+		"/C/xampp/htdocs/chatigniter/application/third_party/HMVC/Loader.php",
+		"/C/xampp/htdocs/chatigniter/application/third_party/HMVC/Router.php",
+		"/C/xampp/htdocs/chatfact2/application/config/routes.php",
+		"/C/xampp/htdocs/chatfact2/application/core/MY_Controller.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/views/common/javascript.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/views/common/css.php",
+		"/C/xampp/htdocs/chatigniter/assets/js/chatigniter.js",
+		"/D/chatigniter_v2/chatigniter v2/application/modules/chat/views/common/css.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/views/chat-form.php",
+		"/D/chatigniter_v2/chatigniter v2/application/modules/chat/views/common/javascript.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/views/edit_profile.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/chat/views/chat.php",
+		"/C/xampp/htdocs/chatfact2/application/modules/home/controller/home.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/help.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/search.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/test.php",
+		"/C/xampp/htdocs/chatigniter/application/modules/home/controllers/index.html",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/Azeem/AppData/Local/Temp/fz3temp-2/footer.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"justi",
+			"no",
+			"450",
+			"update",
+			"'",
+			"update_lastseen",
+			"last",
+			"ci",
+			"lim",
+			"update",
+			"load_thre",
+			"<a",
+			"-gap",
+			"gap",
+			"large_gap",
+			"log",
+			"chat",
+			"read",
+			"paymentpage",
+			"payment",
+			"benefit",
+			"chat-box",
+			"is_logg",
+			"logou",
+			"module",
+			"authenti",
+			"helper",
+			"full",
+			"footer",
+			"sidebar",
+			"spchat",
+			"#chat-container",
+			"chat-box",
+			"logout",
+			"update",
+			"logout",
+			"log",
+			"online",
+			"logout",
+			"log",
+			"session",
+			"disable",
+			"disabled",
+			"get_all",
+			"get",
+			"chat-box",
+			"\n                       ",
+			"uname",
+			"user",
+			"chat-form",
+			"chat_form",
+			"login",
+			"log",
+			"is_loggedin",
+			"rea",
+			"controller",
+			"qbutton",
+			"qbuttom",
+			".q_slider .qbutton",
+			"q-slider",
+			"textarea",
+			"chat",
+			"read",
+			".btn",
+			"btn",
+			"sear",
+			".country",
+			"country",
+			"'\n",
+			"pagina",
+			"container",
+			"side",
+			"sidebar",
+			"side",
+			"margin",
+			"per",
+			"      \t<",
+			"_clean_input_keys",
+			"logo",
+			"select-",
+			"custom-sea",
+			"cus",
+			"select-con",
+			"searchContainer",
+			".searchContainer .form-group",
+			"index2-select",
+			".select",
+			"<a",
+			"logout.php",
+			"welcome",
+			"controller",
+			"font",
+			"color",
+			"cus",
+			"radio",
+			"file",
+			"ajax"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$category_array = $profile->pcategory; \n\n\t\t\t\t\t\t\t\tforeach ($category_array as $key => $value) {\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\techo \"<input type='hidden' name='categoryvalue[]' value='\".$value.\"' >\";\n\t\t\t\t\t\t\t\t}\n\n\n\t\t\t\t\t\t\t\t$country_array = $profile->pcountry; \n\n\t\t\t\t\t\t\t\tforeach ($country_array as $key => $value) {\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\techo \"<input type='hidden' name='countryvalue[]' value='\".$value.\"' >\";\n\t\t\t\t\t\t\t\t}",
+			"$this->ci->load->library('session');",
+			"#main-container"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Azeem/Desktop/dbchatfact_upload.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2641.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Gооglе Сhrоmе.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 336.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
